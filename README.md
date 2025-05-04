@@ -20,25 +20,34 @@ To run this project, you need the following Python libraries installed:
 - `matplotlib`: For static plotting.
 - `seaborn`: For enhanced data visualization.
 - `plotly`: For interactive visualizations (optional but recommended).
+
+  ## 🧰 Tools Used
+
+- **Python** – Programming language used for data analysis.
+- **pandas** – For data cleaning and manipulation.
+- **matplotlib** – For basic plots and visualizations.
+- **seaborn** – For statistical and aesthetic visualizations.
+- **plotly** – For interactive charts (optional).
+- **Jupyter Notebook** – For exploratory data analysis (EDA) and code visualization (optional).
+
   
 You can install the necessary dependencies using `pip`:
 
 ```bash
 pip install pandas matplotlib seaborn plotly
 
-Running the Project
+▶️ Running the Project
 Download the Dataset
 Ensure that you have the owid-covid-data.csv file in your project directory. You can download the dataset from Our World in Data.
 👉 https://covid.ourworldindata.org/data/owid-covid-data.csv
 
-Run the Python Script
-The main script is the Python file that loads the dataset and generates visualizations. You can run it by executing the script in your terminal or using an IDE.
-
+You can run the script in a Python environment:
 bash
-python covid19-Track.py
+python Covid19_Track.py
 
-This will generate the following plots:
 
+
+🖼️ Visual Outputs
 Line Chart: Total COVID-19 cases over time for each selected continent.
 
 Bar Chart: Total COVID-19 deaths for each continent.
@@ -69,7 +78,7 @@ Vaccination statistics
 
 Population data
 
-Observations
+📈 Sample Observations
 Europe has the highest cumulative cases and deaths among the selected continents.
 
 Africa's COVID-19 numbers are relatively lower, possibly due to underreporting or lower testing.
